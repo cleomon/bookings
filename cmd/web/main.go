@@ -1,11 +1,11 @@
 package main
 
 import (
+	"fmt"
+	"github.com/alexedwards/scs/v2"
 	"github.com/cleomon/bookings/pkg/config"
 	"github.com/cleomon/bookings/pkg/handlers"
 	"github.com/cleomon/bookings/pkg/render"
-	"fmt"
-	"github.com/alexedwards/scs/v2"
 	"log"
 	"net/http"
 	"time"

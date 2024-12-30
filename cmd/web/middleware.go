@@ -27,6 +27,6 @@ func NoSurf(next http.Handler) http.Handler {
 }
 
 // SessionLoad saves and load the session on every request
-func SessionLoad(next http.Handler) http.Handler{
+func SessionLoad(next http.Handler) http.Handler {
 	return session.LoadAndSave(next)
 }

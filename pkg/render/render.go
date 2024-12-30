@@ -1,10 +1,10 @@
 package render
 
 import (
-	"github.com/cleomon/bookings/pkg/config"
-	"github.com/cleomon/bookings/pkg/models"
 	"bytes"
 	"fmt"
+	"github.com/cleomon/bookings/pkg/config"
+	"github.com/cleomon/bookings/pkg/models"
 	"html/template"
 	"log"
 	"net/http"
